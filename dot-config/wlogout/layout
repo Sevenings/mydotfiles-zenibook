@@ -12,7 +12,7 @@
 }
 {
     "label" : "suspend",
-    "action" : "systemctl suspend; sleep 0.1 && swaylock -e --timestr '%H:%M' --datestr '%d/%m/%y'",
+    "action" : "systemctl suspend; sleep 2 && swaylock",
     "text" : "Suspend (U) ",
     "keybind" : "u"
 }
