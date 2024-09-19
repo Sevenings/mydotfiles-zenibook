@@ -99,12 +99,12 @@
             "weeks-pos"     : "off",
             "on-scroll"     : 1,
             "format": {
-                        "months":     "<span color='#b9f27c'><b>{}</b></span>",
-                        "days":       "<span color='#ecc6d9'><b>{}</b></span>",
-                        "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
-                        "weekdays":   "<span color='#b9f27c'><b>{}</b></span>",
-                        "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
-                        }
+                "months":     "<span color='#b9f27c'><b>{}</b></span>",
+                "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                "weekdays":   "<span color='#b9f27c'><b>{}</b></span>",
+                "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+            }
         },
     },
     "cpu": {
@@ -155,11 +155,11 @@
         "on-click-right": "kitty --class=floatingTerminal -e nmtui"
     },
     "bluetooth": {
-        "format": " Service Off",
+        "format": "Service Off ",
         "format-disabled": "",
-        "format-off": "󰂲 Off",
-        "format-on": "󰂯 On",
-        "format-connected": "󰂱 {device_alias}",
+        "format-off": "Off 󰂲",
+        "format-on": "On 󰂯",
+        "format-connected": "{device_alias} 󰂱",
         "tooltip-format-off": "Bluetooth Module Off",
         "tooltip-format-on": "No devices connected",
         "tooltip-format-connected": "Status: {status}\nBattery: {device_battery_percentage}\nAddr: {device_address}",
