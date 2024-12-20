@@ -13,8 +13,8 @@ wallpaper=$HOME'/Imagens/cyberpunk-wallpapers/bladerunner1.jpeg'
 wallpaperManager='hyprpaper'
 
 # Topbar
-waybarConfig=$HOME'/.config/waybar/myConfig'
-waybarStyle=$HOME'/.config/waybar/styleTranslucent.css'
+waybarConfig=$HOME'/.config/waybar/gruvbox/config.jsonc'
+waybarStyle=$HOME'/.config/waybar/gruvbox/style.css'
 topbar="waybar -c $waybarConfig -s $waybarStyle"
 
 # Logout Menu

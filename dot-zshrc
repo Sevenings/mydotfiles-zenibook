@@ -60,6 +60,7 @@ alias activate_venv_python='source .venv/bin/activate; alias pip=\""$(pwd)"/.ven
 alias s="kitten ssh"
 alias goserver="kitten ssh lucas@tce-automacao"
 alias sudo="sudo -E -s"
+alias todo="nvim ~/todo.txt"
 
 export EDITOR='nvim'
 export VISUAL='nvim'
