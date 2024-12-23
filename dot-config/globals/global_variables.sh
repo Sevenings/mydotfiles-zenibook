@@ -35,7 +35,8 @@ openFileManager="$terminal -e $fileManager"
 openMiniFileManager="$terminal --class=miniTerminal -e $fileManager"
 
 # AppLauncher
-appLauncher="rofi -show run"
+cmdLauncher="rofi -show run"
+appLauncher="rofi -show drun -disable-history -show-icons"
 #appLauncher=$HOME'/.config/rofi/scripts/launcher-t1'
 #appLauncher='fuzzel'
 
