@@ -143,7 +143,7 @@
 
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "<span color='#202020' bgcolor='#83a598'> {icon}</span> {volume}%",
+        "format": "<span color='#202020' bgcolor='#83a598'> {icon} </span> {volume}%",
         "format-bluetooth": "<span color='#202020' bgcolor='#83a598'> {icon}  </span> {volume}%",
         "format-bluetooth-muted": "<span color='#202020' bgcolor='#ea6962'>    </span>",
         "format-muted": "<span color='#202020' bgcolor='#ea6962'>    </span>",
@@ -156,7 +156,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": [" ", " ", " "]
+            "default": ["", "", ""]
         },
         "on-click": "kitty -e pulsemixer"
     },
@@ -239,8 +239,9 @@
         "format": "[{}]",
         "tooltip": true,
         "tooltip-format": "Horário do ponto",
-        "exec": "horario_ponto",
+        "interval": "once",
         "exec-if": "se_expediente.sh",
+        "exec": "horario_ponto",
     },
 }
 

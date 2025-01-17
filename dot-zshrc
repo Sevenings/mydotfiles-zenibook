@@ -56,7 +56,8 @@ alias allow_acm='sudo chmod a+rw /dev/ttyACM0'
 alias allow_usb='sudo chmod a+rw /dev/ttyUSB0'
 alias allow_usb1='sudo chmod a+rw /dev/ttyUSB1'
 alias clip='wl-copy'
-alias activate_venv_python='source .venv/bin/activate; alias pip=\""$(pwd)"/.venv/bin/pip\"; alias python=\""$(pwd)"/.venv/bin/python\"'
+# alias activate_venv_python='source .venv/bin/activate; alias pip=\""$(pwd)"/.venv/bin/pip\"; alias python=\""$(pwd)"/.venv/bin/python\"'
+alias activate_venv_python='source .venv/bin/activate'
 alias s="kitten ssh"
 alias goserver="kitten ssh lucas@tce-automacao"
 alias sudo="sudo -E -s"
